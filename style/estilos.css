@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(17, 244, 100), rgb(1, 44, 14));
+    min-height: 100vh; 
+    margin: 0;
+ 
+    
+}
+
+.box{
+    color: white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 15px;
+    width: 30%;
+    
+}
+
+fieldset{
+    border: 3px solid darkgreen;
+    padding: 5px;
+    
+}
+
+legend{
+    border: 1px solid darkgreen;
+    padding: 10px;
+    text-align: center;
+    background-color: darkgreen;
+    border-radius: 8px;
+    
+}
+
+.inputBox{
+    position: relative;
+    left: 5px; 
+}
+
+.inputUser{
+    border-radius: 5px;
+    font-size: 15px;
+    width: 50%;
+}
+
+#submit{
+    background: linear-gradient(to right, rgb(17, 244, 100), rgb(1, 44, 14)); 
+    width: 100%;
+    border: none;
+    padding: 8px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#submit:hover{
+    background: linear-gradient(to right, rgb(1, 150, 20), rgb(10, 80, 30)); 
+}
+
